@@ -43,19 +43,9 @@ Augmentations, including horizontal flips, are applied to enhance the training s
 This dataset is pivotal in developing sophisticated vehicle detection models and shaping intelligent transportation systems for smarter city infrastructures.
 
 ### 🗃️ Sources
-- The dataset is curated from [Pexels](https://www.pexels.com/search/videos/), offering diverse top-view videos for a rich vehicle detection dataset.
-- Images were extracted using [Roboflow](https://universe.roboflow.com/farzad/vehicle_detection_yolov8) at a rate of 1 frame per second, ensuring a wide variety of vehicle types and scenarios.
+- The dataset is curated from offering diverse top-view videos for a rich vehicle detection dataset.
+- Images were extracted using at a rate of 1 frame per second, ensuring a wide variety of vehicle types and scenarios.
 
-### 📌 Access
-The dataset is publicly available on Roboflow and Kaggle:
-- Roboflow Project: [Top-View Vehicle Detection](https://universe.roboflow.com/farzad/vehicle_detection_yolov8)
-- Kaggle Dataset: [Top-View Vehicle Detection Image Dataset](https://www.kaggle.com/datasets/farzadnekouei/top-view-vehicle-detection-image-dataset)
-
-
-## 🎥 YouTube Demo
-Real-Time Traffic Density Estimation with YOLOv8 in Action:
-
-[![Traffic Density Estimation Demo](https://img.youtube.com/vi/5SxQfWLENh8/0.jpg)](https://youtu.be/5SxQfWLENh8)
 
 
 ## 📁 File Descriptions
@@ -70,48 +60,9 @@ Real-Time Traffic Density Estimation with YOLOv8 in Action:
 - **`sample_video.mp4`**: The video file used for testing the traffic estimation algorithm and the deployment code in `real_time_traffic_analysis.py`.
 
 
-## 🚀 Instructions for Local Execution
-
-To experience the full capabilities of the YOLOv8 Traffic Density Estimation project on your local machine, follow these steps:
-
-### 1️⃣. Initial Setup
-1. **Clone the Repository**: Start by cloning the project repository to your local system using the command below:
-    ```bash
-    git clone https://github.com/FarzadNekouee/YOLOv8_Traffic_Density_Estimation.git
-    ```
-2. **Navigate to the Project Directory**: After cloning, change into the project directory with:
-    ```bash
-    cd YOLOv8_Traffic_Density_Estimation
-    ```
-
-### 2️⃣. Exploring the Model Development Pipeline
-Get hands-on with the model development process and see the results of traffic density estimation:
-1. **Download the Dataset**: Access the dataset from [Kaggle](https://www.kaggle.com/datasets/farzadnekouei/top-view-vehicle-detection-image-dataset). Download and extract it to a known directory on your machine.
-2. **Open the Notebook**: Launch Jupyter Notebook or JupyterLab and open `real-time_traffic_density_estimation_yolov8.ipynb` to explore the model development pipeline.
-3. **Install Dependencies**: Ensure all necessary Python libraries are installed for flawless execution.
-4. **Update Paths**: Update the paths in the notebook for the dataset, sample image, and sample video to their respective locations on your local system.
-5. **Run the Notebook**: Execute all cells in the notebook to step through the data preprocessing, model training, and evaluation phases.
-
-### 3️⃣. Watching the Real-Time Performance
-Witness the real-time traffic analysis capability of our YOLOv8 model:
-1. **Install Ultralytics YOLO**: Ensure you have the `ultralytics` package installed by running:
-    ```bash
-    pip install ultralytics
-    ```
-2. **Run the Analysis Script**: Execute the script to start the real-time traffic density estimation:
-    ```bash
-    python real_time_traffic_analysis.py
-    ```
-3. **Real-Time Analysis**: The video window will display the live traffic analysis. To exit, simply press 'q' while the video window is active.
 
 This GIF showcases our algorithm running in real-time:
 
 ![Real-Time Traffic Analysis GIF](Running_Real-Time_Traffic_Analysis.gif) 
 
 
-## 🔗 Additional Resources
-
-- 🎥 **Project Demo**: Watch the live demonstration of this project on [YouTube](https://www.youtube.com/watch?v=5SxQfWLENh8).
-- 🌐 **Kaggle Notebook**: Interested in a Kaggle environment? Explore the notebook [here](https://www.kaggle.com/code/farzadnekouei/real-time-traffic-density-estimation-with-yolov8).
-- 🌐 **Dataset Source**: Available on both [Roboflow](https://universe.roboflow.com/farzad/vehicle_detection_yolov8) and [Kaggle](https://www.kaggle.com/datasets/farzadnekouei/top-view-vehicle-detection-image-dataset).
-- 🤝 **Connect on LinkedIn**: Have questions or looking for collaboration? Let's connect on [LinkedIn](https://linkedin.com/in/farzad-nekouei-7535aa53/).
